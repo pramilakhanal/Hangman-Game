@@ -1,0 +1,72 @@
+body {
+	background-image: url(../images/halftone-yellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+	font-family: 'cooperplate' !important;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff0080;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+	font-family: 'cooperplate' !important;
+    font-size: 40px;
+    font-weight: bold;
+    color: #00ff00;
+    text-shadow: 2px 2px black;
+}
+
+.main-content {
+	padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+p {
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight: 700;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#currentWord {
+	font-size: 25px;
+}
+
+#titleAnswer {
+	font-family: 'cooperplate' !important;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width: 640px) {
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.main-content {
+    padding-top: 2%;
+}
+
+

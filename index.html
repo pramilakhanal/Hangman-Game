@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=" en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hangman Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+
+<body>
+	<div class="container">
+		<div class="row header">
+			<div class="col-md-12 text-center">
+				<h1>HANGMAN</h1>
+				<br>
+				<h2>1990s Popular Songs</h2>
+			</div>
+		</div>
+		<div class="row main-content">
+			<div class="col-md-6 text-center">
+					<div class="embed-responsive embed-responsive-16by9">
+					<iframe id="myVideo" width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/GTgAMx5K8nw?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0"></iframe>
+					</div>
+				<div id="titleAnswer"></div>
+			</div>
+			<div class="col-md-6 text-center">
+				<p>PRESS ANY KEY TO GET STARTED !</p>
+				<br>
+				<br>
+				<p>GUESS THE SONGS:</p>
+				<br>
+				<P id="currentWord"> - - - - - - </P>
+				<br>
+				<br>
+				<p>NUMBER OF GUESSES REMAINING :</p>
+				<p id="guessesRemaining"></p>
+				<br>
+				<p>LETTERS ALREADY GUESSED :</p>
+				<p id="guessedLetter"></p>
+				<br>
+				<p>WINS :</p>
+				<p id="wins"></p>
+				<br>
+				<p>LOSS :</p>
+				<p id="loss"></p>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
