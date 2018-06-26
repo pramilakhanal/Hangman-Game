@@ -79,7 +79,7 @@
  }
 
 // testing and debugging
-  console.log(blankAndSuccesses);
+  //console.log(blankAndSuccesses);
 
   }
 
